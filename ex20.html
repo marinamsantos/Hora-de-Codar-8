@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Exercício 20</title>
+    <script>
+        /*20 - Escreva um programa para ler o número de lados de um polígono regular e a medida do lado (em cm). Calcular e imprimir o seguinte: 
+        Se o número de lados for igual a 3 escrever TRIÂNGULO e o valor do seu perímetro. 
+        Se o número de lados for igual a 4 escrever QUADRADO e o valor da sua área. 
+        Se o número de lados for igual a 5 escrever PENTÁGONO.
+        Observação: Considere que o usuário só informará os valores 3, 4 ou 5. 
+        Caso o número de lados seja inferior a 3 escrever NÃO É UM POLÍGONO. 
+        Caso o número de lados seja superior a 5 escrever POLÍGONO NÃO IDENTIFICADO.*/
+
+        
+        var ladosPR = parseInt(prompt("Informe o número de lados de um Polígono Regular"));
+        var medida = parseInt(prompt("Informe a medida dos lados do Polígono (em cm)"));
+        
+        if (ladosPR == 3){
+            alert("Um TRIÂNGULO tem " + ladosPR + " lados.") 
+        } 
+        if (ladosPR == 4){
+            alert("Um QUADRADO tem " + ladosPR + " lados.")
+        }
+        if (ladosPR == 5){
+            alert("um PENTÁGONO tem " + ladosPR + " lados.")
+        }
+        if (ladosPR < 3){
+            alert("NÃO É UM POLÍGONO")
+        }
+        if (ladosPR > 5){
+            alert("POLÍGONO NÃO IDENTIFICADO")
+        }
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

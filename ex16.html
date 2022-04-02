@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <title>Exercício 16</title>
+    <script>
+        /*16 - As maçãs custam R$ 0,30 cada se forem compradas menos do que uma dúzia, e R$ 0,25 se forem compradas pelo menos doze. Escreva um programa que leia o
+        número de maçãs compradas (considere que o usuário informará a quantidade), e calcule e escreva o valor total da compra.*/
+
+        var macas = parseInt(prompt("Insira o número de maçãs compradas"));
+        var trinta = 0.30;
+        var vinteEcinco = 0.25;
+        var calculo1 = (trinta * macas);
+        var calculo2 = (vinteEcinco * macas);
+
+        if (macas < 12){
+            alert("O valor total das maçãs é " + calculo1)
+        }
+        if (macas > 12){
+            alert("O valor total das maçãs é " + calculo2)
+        }
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

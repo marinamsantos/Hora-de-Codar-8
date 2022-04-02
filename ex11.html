@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <title>Exercício 11</title>
+    <script>
+        /*11 - Um motorista de táxi deseja calcular o rendimento de seu carro na praça. Sabendo-se que o preço do combustível é de R$ 2,90, escreva um programa para ler:
+        a marcação do odômetro (Km) no início do dia, a marcação (Km) no final do dia, o número de litros de combustível gasto e o valor total (R$) recebido dos
+        passageiros. Calcular e escrever: a média do consumo em Km/L e o lucro (líquido) do dia.*/
+
+        var odometro = parseInt(prompt("Informe a marcação do odômetro (Km) no início do dia"));
+        var odometro2 = parseInt(prompt("Informe a marcação do odômetro (Km) no final do dia"));
+        var litros = parseInt(prompt("Informe o número de litros (L) de combustível gasto"));
+        var valor = parseInt(prompt("Informe o valor ($) total recebido dos passageiros"));
+
+        var calculo = (odometro2 - odometro);
+        var media = calculo * 2.90;
+
+        var lucro = valor - media;
+
+        alert("A média do consumo em Km/L é " + media + ". E o lucro (líquido) do dia é " + lucro + '.');
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

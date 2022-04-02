@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    
+    <title>Exercício 9</title>
+    <script>
+        /*9. Faça um programa que leia 6 números que o usuário vai informar. Todos os números lidos com valor inferior a 72 devem 
+        ser somados. Escreva o valor final da soma efetuada e também todos valores que o usuário informou.*/
+
+        var number1 = parseInt(prompt("Informe um valor"));
+        var number2 = parseInt(prompt("Informe um valor"));
+        var number3 = parseInt(prompt("Informe um valor"));
+        var number4 = parseInt(prompt("Informe um valor"));
+        var number5 = parseInt(prompt("Informe um valor"));
+        var number6 = parseInt(prompt("Informe um valor"));
+        var valor = 72;
+        var soma = 0;
+
+        if (number1 <= valor){
+           soma += number1;
+        }
+        if (number2 <= valor){
+            soma += number2;
+        } 
+        if (number3 <= valor){
+            soma += number3;
+        }
+        if (number4 <= valor){
+            soma += number4;
+        }
+        if (number5 <= valor){
+            soma += number5;
+        }
+        if (number6 <= valor){
+            soma += number6;
+        }
+        
+        alert("O resultado da soma é " + soma);
+        alert(number1 + ', ' + number2 + ', ' + number3 + ', ' + number4 + ', ' + number5 + ', ' + number6);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

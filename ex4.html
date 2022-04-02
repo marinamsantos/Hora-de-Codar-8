@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <title>Exercício 4</title>
+    <script>
+        //4. Faça um programa que leia 3 valores (considere que não serão informados valores iguais) e escrever a soma dos 2 maiores.
+
+        var x = parseInt(prompt("Digite um número"));
+        var y = parseInt(prompt("Digite um número"));
+        var z = parseInt(prompt("Digite um número"));
+        var resultado;
+
+        if (x < y && x < z){
+            resultado = y + z;
+           alert("O soma dos dois maiores é " + resultado)
+        }
+        if (y < x && y < z){
+           alert("O soma dos dois maiores é " + resultado)
+        }
+        if (z < x && z < y){
+            alert("O soma dos dois maiores é " + resultado)
+        }
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

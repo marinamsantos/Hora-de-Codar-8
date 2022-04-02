@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    
+    <title>Exercício 12</title>
+    <script>
+        /*12 - A equipe Mercedes deseja calcular o número mínimo de litros que deverá colocar no tanque de seu carro para que ele possa percorrer um determinado número
+        de voltas até o primeiro reabastecimento. Escreva um programa que leia o comprimento da pista (em metros), o número total de voltas a serem percorridas no grande
+        prêmio, o número de reabastecimentos desejados e o consumo de combustível do carro (em Km/L). O programa deve calcular e exibir o número mínimo de litros
+        necessários para percorrer até o primeiro reabastecimento. Observação: considere que a quantidade de voltas entre os reabastecimentos é o mesmo, mas não poderá
+        ser maior ou igual a 2. O usuário deve informar a quantidade de quilômetros total do circuito e a quantidade de litros que o carro pode possuir.*/
+
+        var comprimento = parseInt(prompt("Insira o comprimento da pista (em metros)."));
+        var voltas = parseInt(prompt("Insira o número de voltas a serem percorridas no GP."));
+        var reabastecimento = parseInt(prompt("Insira o número de reabastecimento."));
+        var consumo = parseInt(prompt("Insira o consumo de combustível do carro (em Km/L)."));
+        
+        var calculoLitros = ((((comprimento / 1000) * reabastecimento) * voltas) * consumo);
+        alert("O número mínimo de litros necessários para percorrer até o primeiro reabastecimento é " + calculoLitros);
+        
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

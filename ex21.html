@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    
+    <title>Exercício 21</title>
+    <script>
+        /*21 - Escreva um programa que leia as notas das duas avaliações normais e a nota da avaliação optativa. Calcular a média do semestre considerando que a prova
+        optativa substitui a nota mais baixa entre as duas primeiras avaliações. Escrever a média e mensagens que indiquem se o aluno foi aprovado, reprovado ou está
+        em exame, de acordo com as informações abaixo:
+        aprovado : media >= 6.0
+        reprovado : media < 3.0
+        exame : media >= 3.0 e < 6.0*/
+
+       /* var avaliacao = parseInt(prompt('Informe a nota da primeira avaliação'));
+        var avaliacao2 = parseInt(prompt('Informe a nota da segunda avaliação'));
+        var optativa = parseInt(prompt('Informe a nota da avaliação optativa'));
+        var media = 6;
+
+        if(avaliacao >= media && avaliacao2 >= media){
+            alert('Parabéns, você foi aprovado.')
+        }
+        if(avaliacao >= media && avaliacao2 < media && optativa >= media){
+            alert('Parabéns, você foi aprovado.')
+        }
+        if(avaliacao < media && avaliacao2 >= media && optativa >= media){
+            alert('Parabéns, você foi aprovado.')
+        }
+        if(avaliacao < media && avaliacao2 < media){
+            alert('Infelizmente você foi reprovado.')
+        }*/
+
+
+
+
+
+
+        /*var avaliacao1 = parseInt(prompt("Informe a nota da primeira avaliação."));
+        var avaliacao2 = parseInt(prompt("Informe a nota da segunda avaliação."));
+        var optativa = parseInt(prompt("Informe a nota da avaliação optativa."));
+        var media = 6;
+        var media2 = <3;
+        var exame = >=3 ou 6.0;
+
+        if (avaliacao1 > media && avaliacao2 > media){
+            alert("APROVADO!")
+        } else {
+        }
+        if (avaliacao1 < optativa && avaliacao2 < optativa){
+            alert("REPROVADO!") 
+        }*/
+
+
+
+
+
+
+
+        /*var avaliacao1 = parseInt(prompt("Informe a nota da primeira avaliação."));
+        var avaliacao2 = parseInt(prompt("Informe a nota da segunda avaliação."));
+        var optativa = parseInt(prompt("Informe a nota da avaliação optativa."));
+     
+
+        if(avaliacao1 > optativa && avaliacao2 > optativa){
+            var total = ((avaliacao1 + avaliacao2) / 2)
+            alert("APROVADO!")
+        }
+        if(avaliacao1 < optativa && avaliacao2 > optativa){ 
+            var total = ((optativa + avaliacao2) / 2)
+        }
+        if(avaliacao1 > optativa && avaliacao2 < optativa){
+            var total = ((avaliacao1 + optativa) / 2)
+        } 
+    
+        if (total >= 6){
+            alert("APROVADO!")
+        }
+        if (total < 3){
+            alert("REPROVADO!")
+        } else {
+            alert("EXAME!")
+        }*/
+
+
+
+        //ESSE DÁ ERRO NA HORA DO ALERT
+
+        var avaliacao1 = parseInt(prompt("Informe a nota da primeira avaliação."));
+        var avaliacao2 = parseInt(prompt("Informe a nota da segunda avaliação."));
+        var optativa = parseInt(prompt("Informe a nota da avaliação optativa."));
+        var total = 0;  
+
+        if(avaliacao1 > optativa && avaliacao2 > optativa){
+            var total = ((avaliacao1 + avaliacao2) / 2)
+        }
+        if(avaliacao1 < optativa && avaliacao2 > optativa){ 
+            var total = ((optativa + avaliacao2) / 2)
+        }
+        if(avaliacao1 > optativa && avaliacao2 < optativa){
+            var total = ((avaliacao1 + optativa) / 2)
+        } 
+    
+        if (total >= 6){
+            alert("APROVADO!")
+        }
+        if (total < 3){
+            alert("REPROVADO!")
+        } else {
+            alert("EXAME!")
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
